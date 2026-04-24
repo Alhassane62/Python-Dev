@@ -1,23 +1,23 @@
-# x = int(input("Entrez un Entier : "))
-# y = float(input("Entrez un nombre : "))
+x = int(input("Entrez un Entier : "))
+y = float(input("Entrez un nombre : "))
 
-# #Division
-# if y > 0:
-#     div = x / y 
-#     print(f"la division de {x} et {y} est : {div}\n")
-# else:
-#     print("Erreur : Division par zéro n'est pas autorisée.\n")
-#     print("vous ne pouvez pas diviser par zéro.")
+#Division
+if y > 0:
+    div = x / y 
+    print(f"la division de {x} et {y} est : {div}\n")
+else:
+    print("Erreur : Division par zéro n'est pas autorisée.\n")
+    print("vous ne pouvez pas diviser par zéro.")
 
-# # Modulo
-# if y != 0:
-#     mod = x % y 
-#     print(f"le modulo de {x} et {y} est : {mod}\n")
-# else:
-#     print("Erreur y est null \n")
-#     print("vous ne pouvez pas faire le modulo par zéro.")
+# Modulo
+if y != 0:
+    mod = x % y 
+    print(f"le modulo de {x} et {y} est : {mod}\n")
+else:
+    print("Erreur y est null \n")
+    print("vous ne pouvez pas faire le modulo par zéro.")
     
-    
+
     
 nom = input("Quel est votre nom ? ")
 note1 = float(input("Entrez la première note : "))
