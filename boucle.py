@@ -25,3 +25,38 @@ for y in range(a, c + 1):
     print(f"la somme de 1 à {y} est : {b}")
     
 
+# chalenge sur un mot 
+
+nom = input("Entrez un mot : ")
+
+# for i in range(len(nom)-1, -1, -1):
+#     print(nom[i], end="")
+
+for i in range(4): 
+    print(nom)
+# for i in nom:
+#     print(i)
+
+print ("------------------------------------ \n")
+
+for i in range(0, len(nom), 2):
+    print(nom[i], end="")
+
+
+
+print ("------------------------------------ \n")
+
+y = 0
+
+for i in nom:
+    y += 1
+print(f"le nombre de caractère dans le mot {nom} est : {y}")
+
+print ("------------------------------------ \n")
+
+t = 0
+for i in range(len(nom)):
+    if nom[i] != " ":
+        t += 1
+   
+print(f"le nombre de caractère dans le mot {nom} est : {t}")
