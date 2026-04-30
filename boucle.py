@@ -60,3 +60,15 @@ for i in range(len(nom)):
         t += 1
    
 print(f"le nombre de caractère dans le mot {nom} est : {t}")
+
+print ("------------------------------------ \n")
+
+
+mt = input("Entrez une phrase : ")
+y = int(input("Entrez un le premier nombre : "))
+z = int(input("Entrez un le deuxieme nombre : "))
+
+for i  in range(y, z):
+    print(mt)
+    
+    
