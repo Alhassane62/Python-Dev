@@ -1,3 +1,10 @@
+import random
+
+aleatoire = random.randint(1, 110)
+print(f"le nombre aléatoire est : {aleatoire}")
+
+
+
 print('Hello, World!')
 
 

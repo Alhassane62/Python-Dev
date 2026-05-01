@@ -3,7 +3,7 @@ mot_passe = "2020"
 saisie = ""
 tentatives = 0
 
-while mot_passe != "2020":
+while mot_passe != saisie:
     saisie = input("Entrez le mot de passe : ")
     tentatives += 1
     if saisie != mot_passe:
