@@ -73,18 +73,21 @@ c1.retrait()
 # Heritage 
 
 class Etudiant(Personne):
-    def __init__(self, tel, mail, matricule):
+    def __init__(self,nom, prenom, age, tel, mail, matricule):
         super().__init__(nom, prenom, age)
         self.tel = tel
         self.mail = mail
         self.matricule = matricule
         
+        
     def afficherr(self):
-        print(f"Bonjour {self.tel}")
+        print(f"Bonjour {self.nom} votre tel est de {self.tel}")
         
 
-e1 = Etudiant('624366064', 'alhassangsdiallo@gmail.com', '554052222')
-#e1.se_presenter()
+e1 = Etudiant('Diallo', 'Alhassane', 25, '624366064', 'alhassangsdiallo@gmail.com', '554052222')
+e1.se_presenter()
+
+print()
 
 e1.afficherr()
         
@@ -93,7 +96,7 @@ e1.afficherr()
 # Polymorphisme
 
 
-        
+
     
     
 
