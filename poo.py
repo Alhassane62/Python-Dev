@@ -1,3 +1,7 @@
+# Ce code définit une classe `Personne` avec un constructeur `__init__` qui initialise les attributs `nom`, `prenom` et `age`. 
+# La classe a également une méthode `se_presenter` qui affiche une présentation de la personne.
+
+
 class Personne:
     def __init__(self, nom, prenom, age):
         self.nom = nom
@@ -35,7 +39,7 @@ cal1 = Calculatrice(2,5)
 cal1.addition()
 cal1.difference()
     
-    
+# Encapsulation
     
 class Compte:
     def __init__(self, nom, solde):
@@ -66,8 +70,11 @@ c1.depot()
 c1.retrait()
 
 
+# Heritage 
+
 class Etudiant(Personne):
     def __init__(self, tel, mail, matricule):
+        super().__init__(nom, prenom, age)
         self.tel = tel
         self.mail = mail
         self.matricule = matricule
@@ -77,10 +84,15 @@ class Etudiant(Personne):
         
 
 e1 = Etudiant('624366064', 'alhassangsdiallo@gmail.com', '554052222')
-# e1.se_presenter()
+#e1.se_presenter()
 
 e1.afficherr()
         
+
+
+# Polymorphisme
+
+
         
     
     
